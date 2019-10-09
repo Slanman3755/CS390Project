@@ -2292,34 +2292,6 @@ MonoBehaviour:
     - {x: 1.0000004, y: -0.81118244, z: 4.6223645}
     - {x: 1.0000006, y: -2.811182, z: 3.6223645}
     - {x: -0.9999992, y: -2.8111825, z: 3.6223645}
-  - anchorRigidBody: {fileID: 1443870452}
-    colRangeFrom: 0.5
-    colRangeTo: 0.75
-    anchorNodeIndexes: 22000000230000002400000025000000
-    anchorNodeStrength:
-    - 1
-    - 1
-    - 1
-    - 1
-    anchorPosition:
-    - {x: 0.9999987, y: 5.030029, z: -0.99999905}
-    - {x: -1.0000011, y: 5.0300283, z: -0.99999905}
-    - {x: -1.0000015, y: 5.030028, z: 1.000001}
-    - {x: 0.999999, y: 5.0300283, z: 1.000001}
-  - anchorRigidBody: {fileID: 1443870452}
-    colRangeFrom: 0.5
-    colRangeTo: 0.75
-    anchorNodeIndexes: 22000000230000002400000025000000
-    anchorNodeStrength:
-    - 1
-    - 1
-    - 1
-    - 1
-    anchorPosition:
-    - {x: 0.9999987, y: 5.030029, z: -0.99999905}
-    - {x: -1.0000011, y: 5.0300283, z: -0.99999905}
-    - {x: -1.0000015, y: 5.030028, z: 1.000001}
-    - {x: 0.999999, y: 5.0300283, z: 1.000001}
   bone2idxMap:
   - bone: {fileID: 1344351250}
     nodeIdx: 0
@@ -4283,7 +4255,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1682946604}
   m_LocalRotation: {x: -0.14272721, y: 0.54158455, z: -0.1324196, w: -0.81778985}
-  m_LocalPosition: {x: 12.95, y: 32.98, z: -11.93}
+  m_LocalPosition: {x: 36.1, y: 32.98, z: -8.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5340,7 +5312,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &2144950158
 Animator:
   serializedVersion: 3
@@ -5369,8 +5341,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2144950157}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.56, y: 26.6, z: -4.81}
+  m_LocalRotation: {x: 0.9535995, y: -0, z: -0, w: 0.30107796}
+  m_LocalPosition: {x: -7.65, y: 25.357122, z: -3.2593253}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 334056706}
@@ -5381,4 +5353,4 @@ Transform:
   - {fileID: 1116143401}
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 144.955, y: -0.000015258789, z: -0.000015258789}
