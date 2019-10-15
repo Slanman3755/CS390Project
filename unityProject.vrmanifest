@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.cs390project.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\lanmans\\CS390Project\\actions.json",
+      "action_manifest_path": "C:\\Users\\hartma62\\Downloads\\CS390Project\\actions.json",
       "strings": {
         "en_us": {
           "name": "CS390Project [Testing]"
