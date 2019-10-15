@@ -351,8 +351,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ec871bc1efb3d141a5ad357e0264762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_collisionFlags: 2
-  m_groupsIBelongTo: -1
+  m_collisionFlags: 0
+  m_groupsIBelongTo: 1
   m_collisionMask: -1
   _softBodySettings:
     totalMass: 100
