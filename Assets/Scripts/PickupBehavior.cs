@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR;
+using Valve.VR.InteractionSystem;
 
 public class PickupBehavior : MonoBehaviour {
 
@@ -19,6 +20,7 @@ public class PickupBehavior : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        Teleport.instance.enabled = !(PickupAction.active && PickupAction.state);
         if (PickupAction.active)
         {
             if (collidingObject && !objectInHand && PickupAction.state)
