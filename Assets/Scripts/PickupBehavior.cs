@@ -7,9 +7,14 @@ using Valve.VR.InteractionSystem;
 public class PickupBehavior : MonoBehaviour {
 
     public SteamVR_Action_Boolean PickupAction;
-    
+    public SteamVR_Action_Boolean BundleAction;
+
     private GameObject collidingObject = null;
     private GameObject objectInHand = null;
+
+    private List<GameObject> bundle = new List<GameObject>();
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +25,7 @@ public class PickupBehavior : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        Teleport.instance.enabled = !(PickupAction.active && PickupAction.state);
+        Teleport.instance.enabled = !((PickupAction.active && PickupAction.state) || (BundleAction.active && BundleAction.state));
         if (PickupAction.active)
         {
             if (collidingObject && !objectInHand && PickupAction.state)
@@ -29,6 +34,17 @@ public class PickupBehavior : MonoBehaviour {
             } else if (objectInHand && !PickupAction.state)
             {
                 Release();
+            }
+        }
+
+        if(BundleAction.active) {
+            if (collidingObject && BundleAction.state)
+            {
+                Hold();
+            }
+            else if (bundle.Count > 0 && !BundleAction.state)
+            {
+                ReleaseBundle();
             }
         }
     }
@@ -48,6 +64,7 @@ public class PickupBehavior : MonoBehaviour {
 
     void Grab()
     {
+        collidingObject.GetComponent<Rigidbody>().WakeUp();
         objectInHand = collidingObject;
         objectInHand.transform.SetParent(this.transform);
         objectInHand.GetComponent<Rigidbody>().isKinematic = true;
@@ -55,8 +72,24 @@ public class PickupBehavior : MonoBehaviour {
 
     void Release()
     {
-        objectInHand.GetComponent<Rigidbody>().isKinematic = false;
+        //objectInHand.GetComponent<Rigidbody>().isKinematic = false;
         objectInHand.transform.SetParent(null);
         objectInHand = null;
+    }
+
+    void Hold() 
+    {
+        collidingObject.GetComponent<Rigidbody>().WakeUp();
+        bundle.Add(collidingObject);
+        collidingObject.transform.SetParent(this.transform);
+    }
+
+    void ReleaseBundle() 
+    {
+        foreach (GameObject go in bundle)
+        {
+            go.transform.SetParent(null);
+        }
+        bundle.Clear();
     }
 }

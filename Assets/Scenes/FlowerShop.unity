@@ -303,6 +303,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SunflowerRig3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7654485529502060002, guid: 440c552be3a194049aaac838cbdce4b1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6656720266464362481, guid: 440c552be3a194049aaac838cbdce4b1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -371,6 +376,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SunflowerRig3 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654485529502060002, guid: 440c552be3a194049aaac838cbdce4b1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6656720266464362481, guid: 440c552be3a194049aaac838cbdce4b1,
         type: 3}
@@ -610,6 +620,9 @@ MonoBehaviour:
   PickupAction:
     actionPath: /actions/default/in/GrabPinch
     needsReinit: 0
+  BundleAction:
+    actionPath: /actions/default/in/GrabGrip
+    needsReinit: 0
 --- !u!135 &656825430
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -786,6 +799,9 @@ MonoBehaviour:
   PickupAction:
     actionPath: /actions/default/in/GrabPinch
     needsReinit: 0
+  BundleAction:
+    actionPath: /actions/default/in/GrabGrip
+    needsReinit: 0
 --- !u!135 &739320157
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -865,6 +881,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CallaLilyRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 3465869450879500294, guid: 278b01071b4115a4ea437c0e43ee4e5f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 451033138699432469, guid: 278b01071b4115a4ea437c0e43ee4e5f,
         type: 3}
@@ -1360,6 +1381,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: hypericumRig
       objectReference: {fileID: 0}
+    - target: {fileID: 5717537395063204097, guid: bfa903685700b1c4a8614aa5cc5bf99f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8719985029756214034, guid: bfa903685700b1c4a8614aa5cc5bf99f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1497,6 +1523,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LilyRig 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6097672955258001741, guid: 214792ff6a5cc344fb4ab61d7a931177,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7116831891604253534, guid: 214792ff6a5cc344fb4ab61d7a931177,
         type: 3}
