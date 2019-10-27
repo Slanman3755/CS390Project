@@ -1156,6 +1156,7 @@ GameObject:
   - component: {fileID: 4357559065463903908}
   - component: {fileID: 1215789820}
   - component: {fileID: 1215789821}
+  - component: {fileID: 1401508574}
   m_Layer: 0
   m_Name: Anchor Kinematic
   m_TagString: Untagged
@@ -1314,8 +1315,21 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.6183147, y: 24.646805, z: 6.482473}
-  m_Center: {x: -0.8099241, y: 11.823402, z: -0.76980424}
+  m_Size: {x: 1.0003605, y: 12.828377, z: 0.5647464}
+  m_Center: {x: -0.03628111, y: 5.9141884, z: -0.11126447}
+--- !u!65 &1401508574
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4357559065463903910}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.869911, y: 11.266304, z: 5.2826633}
+  m_Center: {x: -0.13690996, y: 18.000416, z: -0.11100769}
 --- !u!1 &4445795821269090196
 GameObject:
   m_ObjectHideFlags: 0

@@ -164,8 +164,9 @@ GameObject:
   - component: {fileID: 1809284999336792432}
   - component: {fileID: 1809284999336792433}
   - component: {fileID: 1809284999336792430}
-  - component: {fileID: 27503933}
   - component: {fileID: 27503932}
+  - component: {fileID: 1838463513}
+  - component: {fileID: 1838463514}
   m_Layer: 0
   m_Name: Anchor Kinematic
   m_TagString: Untagged
@@ -297,7 +298,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!54 &27503933
+--- !u!65 &27503932
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809284999336792428}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.2656271, y: 18.85504, z: 4.89487}
+  m_Center: {x: -0.40755323, y: 8.92752, z: 0.15709165}
+--- !u!54 &1838463513
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -313,7 +327,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &27503932
+--- !u!65 &1838463514
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -324,8 +338,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.123341, y: 28.86101, z: 4.89487}
-  m_Center: {x: -1.5959047, y: 13.930505, z: 0.15709144}
+  m_Size: {x: 8.9365, y: 10.180664, z: 4.89487}
+  m_Center: {x: -1.0024838, y: 23.27068, z: 0.15709135}
 --- !u!1 &2668515756301169640
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,7 +541,7 @@ MonoBehaviour:
       VolumeConversation: 0
       Pressure: 0
       AnchorHardness: 0.7
-      Collisions: 1
+      Collisions: 17
       MaxVolume: 1
       PoseMatching: 0.05
       VelocityCorrectionFactor: 1

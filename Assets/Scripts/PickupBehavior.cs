@@ -57,8 +57,22 @@ public class PickupBehavior : MonoBehaviour {
         }
     }
 
+    void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.GetComponent<Rigidbody>())
+        {
+            other.gameObject.GetComponent<Rigidbody>().useGravity = false;
+            other.gameObject.GetComponent<Rigidbody>().isKinematic = true;
+        }
+    }
+
     void OnTriggerExit(Collider other)
     {
+        if (other.gameObject.GetComponent<Rigidbody>())
+        {
+            other.gameObject.GetComponent<Rigidbody>().useGravity = true;
+            other.gameObject.GetComponent<Rigidbody>().isKinematic = false;
+        }
         collidingObject = null;
     }
 
@@ -72,7 +86,6 @@ public class PickupBehavior : MonoBehaviour {
 
     void Release()
     {
-        //objectInHand.GetComponent<Rigidbody>().isKinematic = false;
         objectInHand.transform.SetParent(null);
         objectInHand = null;
     }
