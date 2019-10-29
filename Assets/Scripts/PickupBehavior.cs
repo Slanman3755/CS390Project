@@ -25,7 +25,7 @@ public class PickupBehavior : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        Teleport.instance.enabled = !((PickupAction.active && PickupAction.state) || (BundleAction.active && BundleAction.state));
+        Teleport.instance.enabled = !(BundleAction.active && BundleAction.state);
         if (PickupAction.active)
         {
             if (collidingObject && !objectInHand && PickupAction.state)
