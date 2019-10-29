@@ -783,8 +783,9 @@ namespace Valve.VR.InteractionSystem
 
 
 		//-------------------------------------------------
-		private void PlayAudioClip( AudioSource source, AudioClip clip )
+		private void PlayAudioClip( AudioSource source, AudioClip clip, float volume = 1.0f )
 		{
+            source.volume = volume;
 			source.clip = clip;
 			source.Play();
 		}
@@ -843,7 +844,7 @@ namespace Valve.VR.InteractionSystem
 
 			headAudioSource.transform.SetParent( player.hmdTransform );
 			headAudioSource.transform.localPosition = Vector3.zero;
-			PlayAudioClip( headAudioSource, teleportSound );
+			PlayAudioClip( headAudioSource, teleportSound, 5f );
 
 			Invoke( "TeleportPlayer", currentFadeTime );
 		}

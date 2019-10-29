@@ -140,7 +140,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2215970732129165873}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -201,7 +201,7 @@ MonoBehaviour:
       VolumeConversation: 0
       Pressure: 0
       AnchorHardness: 0.7
-      Collisions: 1
+      Collisions: 17
       MaxVolume: 1
       PoseMatching: 0.05
       VelocityCorrectionFactor: 1
