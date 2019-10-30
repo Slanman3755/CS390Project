@@ -201,7 +201,7 @@ MonoBehaviour:
       VolumeConversation: 0
       Pressure: 0
       AnchorHardness: 0.7
-      Collisions: 17
+      Collisions: 1
       MaxVolume: 1
       PoseMatching: 0.05
       VelocityCorrectionFactor: 1
