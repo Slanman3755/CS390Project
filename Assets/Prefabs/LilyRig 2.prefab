@@ -1,0 +1,1808 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &359055066769935536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4152930721078750692}
+  m_Layer: 0
+  m_Name: Bone.001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4152930721078750692
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359055066769935536}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 5.1987996, y: -0.6868825, z: -8.783537}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6283132708154052886}
+  m_Father: {fileID: 560229213829593279}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &645842131221965117
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3712478159915679270}
+  m_Layer: 0
+  m_Name: Bone.004
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3712478159915679270
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645842131221965117}
+  m_LocalRotation: {x: 0.4254544, y: 0, z: -0, w: 0.9049799}
+  m_LocalPosition: {x: 5.1987996, y: -0.6868825, z: 0.08358383}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4451442787357967872}
+  m_Father: {fileID: 560229213829593279}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &653221608176345852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 560229213829593279}
+  m_Layer: 0
+  m_Name: Armature
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &560229213829593279
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653221608176345852}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2409693446692491148}
+  - {fileID: 4152930721078750692}
+  - {fileID: 6366479984950393373}
+  - {fileID: 8532864352285479831}
+  - {fileID: 3712478159915679270}
+  m_Father: {fileID: 5145906035072115459}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1070266739996930273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6924804900807588835}
+  m_Layer: 0
+  m_Name: Bone.002_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6924804900807588835
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070266739996930273}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 3.0655127, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6366479984950393373}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1187687340206911061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6283132708154052886}
+  m_Layer: 0
+  m_Name: Bone.001_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6283132708154052886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187687340206911061}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 3.074479, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4152930721078750692}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1434860570188106710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2450638910018584535}
+  m_Layer: 0
+  m_Name: Bone.003_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2450638910018584535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434860570188106710}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 2.727129, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8532864352285479831}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2271761026877477412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5145906035072115459}
+  - component: {fileID: 7124753031175514073}
+  m_Layer: 0
+  m_Name: LilyRig 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5145906035072115459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2271761026877477412}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 560229213829593279}
+  - {fileID: 2853632659377575180}
+  - {fileID: 1622995533481684061}
+  - {fileID: 8207592813082494825}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &7124753031175514073
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2271761026877477412}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: a19b2a239b8e04764b57a49579b4bc75, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &2526561982974978835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4451442787357967872}
+  m_Layer: 0
+  m_Name: Bone.004_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4451442787357967872
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2526561982974978835}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 1.7829654, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3712478159915679270}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3292169048105909168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1622995533481684061}
+  - component: {fileID: 517807046264175900}
+  - component: {fileID: 7400121786453194544}
+  - component: {fileID: 5589082953590892119}
+  m_Layer: 0
+  m_Name: LowRender
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1622995533481684061
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3292169048105909168}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5145906035072115459}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &517807046264175900
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3292169048105909168}
+  m_Mesh: {fileID: 2336034845018787307, guid: a19b2a239b8e04764b57a49579b4bc75, type: 3}
+--- !u!23 &7400121786453194544
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3292169048105909168}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 670224309865224971, guid: a19b2a239b8e04764b57a49579b4bc75, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &5589082953590892119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3292169048105909168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec871bc1efb3d141a5ad357e0264762, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_collisionFlags: 0
+  m_groupsIBelongTo: 1
+  m_collisionMask: -1
+  _softBodySettings:
+    totalMass: 100
+    scale: {x: 1, y: 1, z: 1}
+    fromFaces: 1
+    bframe: 1
+    bvolume: 0
+    generateClusters: 0
+    bendingConstraintDistance: 2
+    allNodeBendingConstraints: 1
+    randomizeConstraints: 1
+    config:
+      DynamicFriction: 0.5
+      Damping: 0
+      VolumeConversation: 0
+      Pressure: 0
+      AnchorHardness: 0.7
+      Collisions: 17
+      MaxVolume: 1
+      PoseMatching: 0.05
+      VelocityCorrectionFactor: 1
+      Timescale: 1
+      RigidContactHardness: 1
+      KineticContactHardness: 0.1
+      Shr: 1
+      PositionIterations: 10
+      DriftIterations: 0
+      VelocityIterations: 0
+      ClusterIterations: 0
+      aeroModel: 0
+      Drag: 0
+      Lift: 0
+      SoftRigidHardness: 0.1
+      SoftKineticHardness: 1
+      SoftSoftHardness: 0.5
+      SoftRigidImpulseSplit: 0.5
+      SoftKineticImpulseSplit: 0.5
+      SoftSoftImpulseSplit: 0.5
+    sBMaterial:
+      LinearStiffness: 0.5
+      AngularStiffness: 1
+      VolumeStiffness: 1
+      Flags: 1
+    sBpresetSelect: 7
+  skinnedMesh: {fileID: 5334463173659138411}
+  debugDisplaySimulatedMesh: 0
+  debugDisplayMappedBoneGizmos: 0
+  debugDisplayMappedAnchors: 1
+  debugSimMeshOffset: {x: -6, y: 0, z: -2}
+  radius: 0.6
+  anchors:
+  - anchorRigidBody: {fileID: 1099983722314070561}
+    colRangeFrom: 0.7
+    colRangeTo: 1
+    anchorNodeIndexes: 0000000001000000020000000300000004000000050000000a0000000b0000000c0000000d0000000e0000000f0000001400000015000000160000001700000018000000190000001e0000001f0000002000000021000000220000002300000028000000290000002a0000002b00000042000000430000004500000046000000490000004e000000
+    anchorNodeStrength:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0.5019608
+    - 0.5019608
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0.5019608
+    - 0.5019608
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0.5019608
+    - 0.5019608
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0.5019608
+    - 0.5019608
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0.07450981
+    - 0.050980393
+    - 0.050980393
+    - 0.07450981
+    - 0.07450981
+    - 0.050980393
+    anchorPosition:
+    - {x: 5.3362064, y: -0.80362356, z: -10.929076}
+    - {x: 5.3362064, y: -0.59052277, z: -10.929076}
+    - {x: 5.3362064, y: -0.59052277, z: -8.721708}
+    - {x: 5.3362064, y: -0.80362356, z: -8.721708}
+    - {x: 5.3362064, y: -0.80362356, z: -5.734342}
+    - {x: 5.3362064, y: -0.59052277, z: -5.734342}
+    - {x: 5.3362064, y: -0.59052277, z: -10.929076}
+    - {x: 5.1001472, y: -0.59052277, z: -10.929076}
+    - {x: 5.1001472, y: -0.59052277, z: -8.721708}
+    - {x: 5.3362064, y: -0.59052277, z: -8.721708}
+    - {x: 5.3362064, y: -0.59052277, z: -5.734342}
+    - {x: 5.1001472, y: -0.59052277, z: -5.734342}
+    - {x: 5.1001472, y: -0.59052277, z: -10.929076}
+    - {x: 5.1001472, y: -0.80362356, z: -10.929076}
+    - {x: 5.1001472, y: -0.80362356, z: -8.721708}
+    - {x: 5.1001472, y: -0.59052277, z: -8.721708}
+    - {x: 5.1001472, y: -0.59052277, z: -5.734342}
+    - {x: 5.1001472, y: -0.80362356, z: -5.734342}
+    - {x: 5.1001472, y: -0.80362356, z: -10.929076}
+    - {x: 5.3362064, y: -0.80362356, z: -10.929076}
+    - {x: 5.3362064, y: -0.80362356, z: -8.721708}
+    - {x: 5.1001472, y: -0.80362356, z: -8.721708}
+    - {x: 5.1001472, y: -0.80362356, z: -5.734342}
+    - {x: 5.3362064, y: -0.80362356, z: -5.734342}
+    - {x: 5.3362064, y: -0.59052277, z: -10.929076}
+    - {x: 5.3362064, y: -0.80362356, z: -10.929076}
+    - {x: 5.1001472, y: -0.80362356, z: -10.929076}
+    - {x: 5.1001472, y: -0.59052277, z: -10.929076}
+    - {x: 6.971306, y: -0.8871987, z: 2.4376888}
+    - {x: 6.971306, y: 1.629575, z: 0.2975235}
+    - {x: 6.971306, y: 1.629575, z: 0.2975235}
+    - {x: 6.971306, y: -0.8871987, z: 2.4376888}
+    - {x: 6.971306, y: -0.8871987, z: 2.4376888}
+    - {x: 6.971306, y: 1.629575, z: 0.2975235}
+  bone2idxMap:
+  - bone: {fileID: 2409693446692491148}
+    nodeIdx: 0
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 3
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 2
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0.9953723, z: -0.096093915}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 1
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: -1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 2409693446692491148}
+    nodeIdx: 1
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 2
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 0
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0, y: 0, z: 1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 4152930721078750692}
+    nodeIdx: 2
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 0
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -0.9953723, z: 0.096093915}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 1
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 3
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0, y: 0, z: 1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 4
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0, y: 0.99746543, z: 0.0711532}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 5
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 4152930721078750692}
+    nodeIdx: 3
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 4
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 2
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: -1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 0
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 6366479984950393373}
+    nodeIdx: 4
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 2
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -0.99746543, z: -0.0711532}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 3
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 5
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: -1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 6
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 6366479984950393373}
+    nodeIdx: 5
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 2
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 4
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0, y: 0, z: 1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 6
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0, y: 0.9976906, z: 0.067922145}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 7
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 8532864352285479831}
+    nodeIdx: 6
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 5
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -0.9976906, z: -0.067922145}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 4
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 7
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: -1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 8
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 8532864352285479831}
+    nodeIdx: 7
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 5
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 6
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0, y: 0, z: 1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 8
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0, y: 0.9970609, z: 0.0766137}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 9
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 3712478159915679270}
+    nodeIdx: 8
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 9
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: -1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 6
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 7
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -0.9970609, z: -0.0766137}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 3712478159915679270}
+    nodeIdx: 9
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 8
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0, y: 0, z: 1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 7
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 2409693446692491148}
+    nodeIdx: 10
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 13
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -1, y: 0, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 12
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0.99433035, y: 0, z: -0.106335156}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 11
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: -1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 2409693446692491148}
+    nodeIdx: 11
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 12
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -1, y: 0, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 10
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: 1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 4152930721078750692}
+    nodeIdx: 12
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 10
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0.99433035, y: -0, z: 0.106335156}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 11
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 1, y: -0, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 13
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: 1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 14
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0.9968925, y: 0, z: 0.07877362}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 15
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -1, y: 0, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 4152930721078750692}
+    nodeIdx: 13
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 14
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -1, y: 0, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 12
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: -1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 10
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 1, y: -0, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 6366479984950393373}
+    nodeIdx: 14
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 12
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0.9968925, y: 0, z: -0.07877362}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 13
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 1, y: -0, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 15
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: -1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 16
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -1, y: 0, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 6366479984950393373}
+    nodeIdx: 15
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 12
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 1, y: -0, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 14
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: 1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 16
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0.9971684, y: 0, z: 0.07520035}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 17
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -1, y: 0, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 8532864352285479831}
+    nodeIdx: 16
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 15
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0.9971684, y: 0, z: -0.07520035}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 14
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 1, y: -0, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 17
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: -1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 18
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -1, y: 0, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 8532864352285479831}
+    nodeIdx: 17
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 15
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 1, y: -0, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 16
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: 1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 18
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0.996397, y: 0, z: 0.084811166}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 19
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -1, y: 0, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 3712478159915679270}
+    nodeIdx: 18
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 19
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: -1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 16
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 1, y: -0, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 17
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0.996397, y: 0, z: -0.084811166}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 3712478159915679270}
+    nodeIdx: 19
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 18
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: 1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 17
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 1, y: -0, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 2409693446692491148}
+    nodeIdx: 20
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 23
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 22
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0, y: -0.9953723, z: -0.096093915}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 21
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0, y: -0, z: -1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 2409693446692491148}
+    nodeIdx: 21
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 22
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 20
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -0, z: 1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 4152930721078750692}
+    nodeIdx: 22
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 20
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0.9953723, z: 0.096093915}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 21
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 23
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -0, z: 1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 24
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -0.99746543, z: 0.0711532}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 25
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 4152930721078750692}
+    nodeIdx: 23
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 24
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 22
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0, y: -0, z: -1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 20
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 6366479984950393373}
+    nodeIdx: 24
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 22
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0.99746543, z: -0.0711532}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 23
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 25
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0, y: -0, z: -1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 26
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 6366479984950393373}
+    nodeIdx: 25
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 22
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 24
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -0, z: 1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 26
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -0.9976906, z: 0.067922145}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 27
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 8532864352285479831}
+    nodeIdx: 26
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 25
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0.9976906, z: -0.067922145}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 24
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 27
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0, y: -0, z: -1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 28
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 8532864352285479831}
+    nodeIdx: 27
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 25
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 26
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -0, z: 1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 28
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -0.9970609, z: 0.0766137}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 29
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 3712478159915679270}
+    nodeIdx: 28
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 29
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0, y: -0, z: -1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 26
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 27
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0.9970609, z: -0.0766137}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 3712478159915679270}
+    nodeIdx: 29
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 28
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -0, z: 1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 27
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 2409693446692491148}
+    nodeIdx: 30
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 33
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 1, y: 0, z: -0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 32
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0.99433035, y: 0, z: -0.106335156}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 31
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: -1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 2409693446692491148}
+    nodeIdx: 31
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 32
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 1, y: 0, z: -0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 30
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: 1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 4152930721078750692}
+    nodeIdx: 32
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 30
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0.99433035, y: 0, z: 0.106335156}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 31
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -1, y: -0, z: -0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 33
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: 1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 34
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0.9968925, y: 0, z: 0.07877362}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 35
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 1, y: 0, z: -0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 4152930721078750692}
+    nodeIdx: 33
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 34
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 1, y: 0, z: -0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 32
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: -1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 30
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -1, y: -0, z: -0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 6366479984950393373}
+    nodeIdx: 34
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 32
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0.9968925, y: -0, z: -0.07877362}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 33
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -1, y: -0, z: -0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 35
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: -1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 36
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 1, y: 0, z: -0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 6366479984950393373}
+    nodeIdx: 35
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 32
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -1, y: -0, z: -0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 34
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: 1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 36
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0.9971684, y: 0, z: 0.07520035}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 37
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 1, y: 0, z: -0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 8532864352285479831}
+    nodeIdx: 36
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 35
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0.9971684, y: -0, z: -0.07520035}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 34
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -1, y: -0, z: -0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 37
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: -1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 38
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 1, y: 0, z: -0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 8532864352285479831}
+    nodeIdx: 37
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 35
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -1, y: -0, z: -0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 36
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: 1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 38
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0.996397, y: 0, z: 0.084811166}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 39
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 1, y: 0, z: -0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 3712478159915679270}
+    nodeIdx: 38
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 39
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: -1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 36
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -1, y: -0, z: -0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 37
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0.996397, y: -0, z: -0.084811166}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 3712478159915679270}
+    nodeIdx: 39
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 38
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0, z: 1}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 37
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -1, y: -0, z: -0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 2409693446692491148}
+    nodeIdx: 40
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 43
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0, y: -1, z: -0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 42
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0.6700889, y: -0.74228084, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 41
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 1, y: 0, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 2409693446692491148}
+    nodeIdx: 41
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 42
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0, y: -1, z: -0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 40
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -1, y: 0, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 2409693446692491148}
+    nodeIdx: 42
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 43
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -1, y: 0, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 41
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0, y: 1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 40
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0.6700889, y: 0.74228084, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 2409693446692491148}
+    nodeIdx: 43
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 42
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 1, y: 0, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 40
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0, y: 1, z: 0}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 3712478159915679270}
+    nodeIdx: 44
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 47
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -0.18577705, z: 0.9825919}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 46
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0.50479954, y: -0.16036955, z: 0.84820926}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 45
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0.8203181, y: 0.10624728, z: -0.5619517}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 3712478159915679270}
+    nodeIdx: 47
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 46
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0.67398417, y: -0.137242, z: 0.72588557}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 44
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0.18577705, z: -0.9825919}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 3712478159915679270}
+    nodeIdx: 52
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 55
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: 0.9069573, z: -0.42122257}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 54
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0.6100108, y: 0.71866673, z: -0.33377385}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 53
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0.67740726, y: -0.66716516, z: 0.30985475}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 3712478159915679270}
+    nodeIdx: 55
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 54
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0.8228075, y: 0.5154422, z: -0.2393893}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 52
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0, y: -0.9069573, z: 0.42122257}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 3712478159915679270}
+    nodeIdx: 56
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 58
+      r_angleFromPlane: 0
+      edgeXnorm: {x: -0.7258579, y: -0.37441123, z: 0.57701516}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 57
+      r_angleFromPlane: 0.18789065
+      edgeXnorm: {x: 0.4371036, y: -0.83693904, z: 0.32935327}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 59
+      r_angleFromPlane: 0.52361786
+      edgeXnorm: {x: -0.90629995, y: 0, z: 0.42263502}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 3712478159915679270}
+    nodeIdx: 59
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 58
+      r_angleFromPlane: 0.18708324
+      edgeXnorm: {x: -0.63597965, y: -0.48131883, z: 0.60320973}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 56
+      r_angleFromPlane: 0.52361786
+      edgeXnorm: {x: 0.90629995, y: 0, z: -0.42263502}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 3712478159915679270}
+    nodeIdx: 60
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 62
+      r_angleFromPlane: 0
+      edgeXnorm: {x: 0.69302547, y: 0.71918213, z: 0.049926836}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 61
+      r_angleFromPlane: 0.20797253
+      edgeXnorm: {x: -0.7089761, y: 0.23036505, z: -0.66654694}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 63
+      r_angleFromPlane: 0.4746096
+      edgeXnorm: {x: 0.8064739, y: 0, z: 0.59126973}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+  - bone: {fileID: 3712478159915679270}
+    nodeIdx: 63
+    bindNormal: {x: 0, y: 0, z: 0}
+    bindBoneRotation: {x: 0, y: 0, z: 0, w: 0}
+    edges:
+    - nodeIdx: 62
+      r_angleFromPlane: 0.20930433
+      edgeXnorm: {x: 0.48832884, y: 0.85277, z: -0.18525186}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+    - nodeIdx: 60
+      r_angleFromPlane: 0.4746096
+      edgeXnorm: {x: -0.8064739, y: 0, z: -0.59126973}
+      bindEdgeXnorm: {x: 0, y: 0, z: 0}
+--- !u!1 &5232492385386665323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6366479984950393373}
+  m_Layer: 0
+  m_Name: Bone.002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6366479984950393373
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5232492385386665323}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 5.1987996, y: -0.6868825, z: -5.709058}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6924804900807588835}
+  m_Father: {fileID: 560229213829593279}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6373788881791578971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7264803252881214553}
+  m_Layer: 0
+  m_Name: Bone_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7264803252881214553
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6373788881791578971}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 2.1215878, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2409693446692491148}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7039851221115869658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2409693446692491148}
+  m_Layer: 0
+  m_Name: Bone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2409693446692491148
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7039851221115869658}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 5.1987996, y: -0.6868825, z: -10.905125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7264803252881214553}
+  m_Father: {fileID: 560229213829593279}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7092178279373734349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2853632659377575180}
+  - component: {fileID: 5334463173659138411}
+  m_Layer: 0
+  m_Name: LilyRig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2853632659377575180
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7092178279373734349}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5145906035072115459}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!137 &5334463173659138411
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7092178279373734349}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -8542313713096554546, guid: a19b2a239b8e04764b57a49579b4bc75, type: 3}
+  - {fileID: 2100000, guid: 65b04881b02544fdcb106ac3e49f6ce2, type: 2}
+  - {fileID: -1256930874003922721, guid: a19b2a239b8e04764b57a49579b4bc75, type: 3}
+  - {fileID: 3327290620181064972, guid: a19b2a239b8e04764b57a49579b4bc75, type: 3}
+  - {fileID: -1733132074033798414, guid: a19b2a239b8e04764b57a49579b4bc75, type: 3}
+  - {fileID: -8836093635391313325, guid: a19b2a239b8e04764b57a49579b4bc75, type: 3}
+  - {fileID: 1888701927684858122, guid: a19b2a239b8e04764b57a49579b4bc75, type: 3}
+  - {fileID: 1093130398755216120, guid: a19b2a239b8e04764b57a49579b4bc75, type: 3}
+  - {fileID: 4790147485911819221, guid: a19b2a239b8e04764b57a49579b4bc75, type: 3}
+  - {fileID: 4622133857167921511, guid: a19b2a239b8e04764b57a49579b4bc75, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: -7826116025038898819, guid: a19b2a239b8e04764b57a49579b4bc75, type: 3}
+  m_Bones:
+  - {fileID: 2409693446692491148}
+  - {fileID: 4152930721078750692}
+  - {fileID: 6366479984950393373}
+  - {fileID: 8532864352285479831}
+  - {fileID: 3712478159915679270}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 3712478159915679270}
+  m_AABB:
+    m_Center: {x: 0.12039161, y: -3.0572007, z: -2.284532}
+    m_Extent: {x: 2.225077, y: 5.4112988, z: 4.77449}
+  m_DirtyAABB: 0
+--- !u!1 &7547047332578783665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8207592813082494825}
+  - component: {fileID: 1226875454903043616}
+  - component: {fileID: 1099983722314070561}
+  - component: {fileID: 3018462533091494789}
+  - component: {fileID: 7070201116117238421}
+  - component: {fileID: 769613895582548416}
+  - component: {fileID: 2540641360815348477}
+  - component: {fileID: 3522575356633328435}
+  m_Layer: 0
+  m_Name: Anchor Kinematic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8207592813082494825
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7547047332578783665}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.07, y: -12.46, z: 0.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5145906035072115459}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1226875454903043616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7547047332578783665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 981cab104f9b8944a8fc53b75da4ce73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  info: Information about this BPriitive
+  meshSettings:
+    radius: 2
+    numLongitudeLines: 24
+    numLatitudeLines: 16
+--- !u!114 &1099983722314070561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7547047332578783665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4bc1fbf5b92f6247aeb5ac3157e2cdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_collisionFlags: 2
+  m_groupsIBelongTo: 1
+  m_collisionMask: -1
+  _friction: 0.5
+  _rollingFriction: 0
+  _linearDamping: 0
+  _angularDamping: 0
+  _restitution: 0
+  _linearSleepingThreshold: 0.8
+  _angularSleepingThreshold: 1
+  _additionalDamping: 0
+  _additionalDampingFactor: 0.005
+  _additionalLinearDampingThresholdSqr: 0.01
+  _additionalAngularDampingThresholdSqr: 0.01
+  _additionalAngularDampingFactor: 0.01
+  _linearFactor: {x: 1, y: 1, z: 1}
+  _angularFactor: {x: 1, y: 1, z: 1}
+  _mass: 1
+  _linearVelocity: {x: 0, y: 0, z: 0}
+  _angularVelocity: {x: 0, y: 0, z: 0}
+  debugType: 0
+--- !u!114 &3018462533091494789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7547047332578783665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d9cd30469054c64e87ceada6b748043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawGizmo: 1
+  radius: 2
+  m_localScaling: {x: 1, y: 1, z: 1}
+--- !u!33 &7070201116117238421
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7547047332578783665}
+  m_Mesh: {fileID: 0}
+--- !u!23 &769613895582548416
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7547047332578783665}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!54 &2540641360815348477
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7547047332578783665}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &3522575356633328435
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7547047332578783665}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.556711, y: 16.075546, z: 1}
+  m_Center: {x: -0.023298502, y: 7.537773, z: 4.645881e-11}
+--- !u!1 &8743119010579539048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8532864352285479831}
+  m_Layer: 0
+  m_Name: Bone.003
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8532864352285479831
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8743119010579539048}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 5.1987996, y: -0.6868825, z: -2.6435452}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2450638910018584535}
+  m_Father: {fileID: 560229213829593279}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
